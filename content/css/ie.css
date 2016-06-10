@@ -1,0 +1,21 @@
+/* css ie*/
+.ver-img
+{
+	height:486px;
+}
+.ver-img img
+{
+	height:450px;
+}
+.hori-img
+{
+	height:171px;
+}
+.location-order > div
+{
+	width:24%;
+}
+.location-reture > div
+{
+	width:25%;
+}

@@ -1,0 +1,15 @@
+body, .wapper{
+	margin: 0px 0px;
+	padding: 0px 0;
+}
+/*design side show*/
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+	 width: 100%;
+
+	 margin: auto;
+ }
+.item{
+
+}
+/*End design side show*/
