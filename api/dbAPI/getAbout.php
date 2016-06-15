@@ -13,10 +13,13 @@ require_once APP_BASE_PATH.'common/config.php';
 require_once APP_BASE_PATH.'db/db.php';
 
 $phimid = $_REQUEST["phimid"];
-$rs = $adb->query("select phim.PhimID,DaoDien,hinh, tenphim ,dienvien, status.status, namphathanh, noidungphim
-                  from phim JOIN Videos on phim.phimid = Videos.PhimID
-                  JOIN status on Videos.StatusID = status.statusID
-                  WHERE phim.phimid = $phimid");
+
+$rs = $adb->query_with_params("select p.phimid, dd.tendaodien, p.namphathanh, p.noidungphim, p.hinh, p.tenphim, tendienvien
+                                    from phim p inner join daodien dd on p.daodienid = dd.daodienid
+                                    inner join phim_dienvien pdv on p.phimid = pdv.phimid
+                                        inner join dienvien dv on pdv.dienvienid = dv.dienvienid
+                                    where p.xoa = 0 and dd.xoa = 0 and  p.phimid = ?",["i",$phimid]);
+
 $data = [];
 if($adb->num_rows($rs) > 0) {
     $data = $adb->fetch_assoc_to_array($rs);

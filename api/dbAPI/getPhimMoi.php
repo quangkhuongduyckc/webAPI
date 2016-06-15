@@ -25,7 +25,7 @@ $pages = $_GET["pages"];
 $from = $pages * pages::limitPages;
 $rs = $adb->query("SELECT *
                   FROM Phim WHERE NgayDang > DATE_ADD((SELECT MAX(NgayDang) FROM Phim), INTERVAL -7 DAY)
-                  AND NgayDang <= (SELECT MAX(NgayDang) FROM Phim limit $from ,".pages::limitPages.")");
+                  AND NgayDang <= (SELECT MAX(NgayDang) FROM Phim limit $from ,".pages::limitPages.") and phim.xoa = 0");
 $data = [];
 if($adb->num_rows($rs) > 0){
     $data = $adb->fetch_assoc_to_array($rs);

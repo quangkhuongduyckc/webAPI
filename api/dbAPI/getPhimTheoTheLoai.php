@@ -17,7 +17,8 @@ $theloaiid = $_REQUEST['theloaiid'];
 $pages = $_GET["pages"];
 $from = $pages * pages::limitPages;
 $rs = $adb->query("SELECT *
-                  FROM Phim WHERE theloaiid = $theloaiid limit $from,".pages::limitPages);
+                  FROM Phim join theloai on phim.theloaiid = theloai.`TheLoaiID`
+                  WHERE theloai.theloaiid = $theloaiid and theloai.xoa = 0 and phim.xoa = 0 limit $from,".pages::limitPages);
 $data = [];
 if($adb->num_rows($rs) > 0){
     $data = $adb->fetch_assoc_to_array($rs);

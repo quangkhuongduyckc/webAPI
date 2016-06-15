@@ -17,14 +17,18 @@ $idFB = $_GET["idfacebook"];
 $tenFB = $_GET["tenfacebook"];
 $linkFB = $_GET["linkfacebook"];
 $ketquakiemtra = $adb->query("select * from thanhvien WHERE idfacebook = $idFB");
+$data = [];
 if($adb->num_rows($ketquakiemtra) === 0){
-    $rs = $adb->query_with_params("insert into thanhvien(idfacebook,tenfacebook,linkfacebook) VALUES(?,?,?)"
-                                    ,['iss',$idFB,$tenFB,$linkFB],true);
-//    if($rs > -1){
-//
-//    }
-
-    echo json_encode("them thanh cong");
+    $rs = $adb->query_with_params("insert into thanhvien(idfacebook,tenfacebook,linkfacebook, xoa) VALUES(?,?,?)"
+                                    ,['issi',$idFB,$tenFB,$linkFB,0],true);
+    print_r($rs);
+    $data[0]["thanhvienid"] = $rs;
+    echo json_encode(array("data"=>$data));
+}else{
+    $data = $adb->fetch_assoc_to_array($ketquakiemtra);
+    echo json_encode(array("data"=>$data));
 }
+
+
 
 

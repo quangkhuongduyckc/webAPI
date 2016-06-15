@@ -15,7 +15,7 @@ require_once APP_BASE_PATH.'db/db.php';
 global $adb;
 $pages = $_GET["pages"];
 $from = $pages * pages::limitPages;
-$rs = $adb->query("select * from phim WHERE loaiphimid=". loaiPhimId::phimle ." limit $from,".pages::limitPages);
+$rs = $adb->query("select * from phim WHERE phim.xoa = 0 and loaiphimid=". loaiPhimId::phimle ." limit $from,".pages::limitPages);
 $data = [];
 if($adb->num_rows($rs) > 0){
     $data = $adb->fetch_assoc_to_array($rs);

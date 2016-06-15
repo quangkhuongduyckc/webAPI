@@ -13,7 +13,7 @@ require_once APP_BASE_PATH.'common/config.php';
 require_once APP_BASE_PATH.'db/db.php';
 
 global $adb;
- $rs = $adb->query("select * from theloai ORDER BY tentheloai ASC");
+ $rs = $adb->query("select * from theloai  where theloai.xoa = 0  ORDER BY tentheloai ASC");
 $data = [];
 if($adb->num_rows($rs) > 0){
     $data = $adb->fetch_assoc_to_array($rs);

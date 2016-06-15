@@ -12,27 +12,27 @@ $videosid = -1;
 $data = [];
 $videosid = $_GET['videosid'];
 if(isset($_GET["guibinhluan"])){
-    $idfacebook = $_GET["idfacebook"];
+    $thanhvienid = $_GET["thanhvienid"];
     $binhluan = $_GET["guibinhluan"];
     $dateNow = date("Y-m-d H:i:s");
-    $id = $adb->query_with_params("insert into binhluan(idfacebook, videosid, loibinhluan, ngaybinhluan)
-                                  VALUES (?,?,?,?)",["iiss",$idfacebook,$videosid,$binhluan, $dateNow],true);
-    $adb->query_with_params("UPDATE `Videos` SET `Videos`.`binhluan` = `Videos`.`binhluan` + 1 WHERE `Videos`.`VideosID` = ?", ['i',$videosid]);
+    $id = $adb->query_with_params("insert into binhluan(thanhvienid, videosid, loibinhluan, ngaybinhluan)
+                                  VALUES (?,?,?,?)",["iiss",$thanhvienid,$videosid,$binhluan, $dateNow],true);
+//    $adb->query_with_params("UPDATE `Videos` SET `Videos`.`binhluan` = `Videos`.`binhluan` + 1 WHERE `Videos`.`VideosID` = ?", ['i',$videosid]);
     if($id > 0){
-        $rs = $adb->query_with_params("select *
-                                      from thanhvien join  binhluan on thanhvien.`idFacebook` = binhluan.`idFacebook`
-                                      join videos on binhluan.`videosID` = videos.`VideosID`
-                                      where binhluan.`videosID` = ? ORDER BY binhluan.ngaybinhluan ASC ",["i",$videosid]);
+        $rs = $adb->query_with_params("select loibinhluan, thanhvien.thanhvienid, username, tenfacebook
+                                    from binhluan inner join thanhvien on binhluan.thanhvienid = thanhvien.thanhvienid
+                                    where binhluan.videosid = ? and binhluan.xoa = 0 and thanhvien.xoa = 0
+                                    ORDER BY binhluan.ngaybinhluan ASC ",["i",$videosid]);
         if($adb->num_rows($rs) > 0){
             $data = $adb->fetch_assoc_to_array($rs);
         }
         echo json_encode(array("data"=>$data));
     }
 }else{
-    $rs = $adb->query_with_params("select *
-                                  from thanhvien join  binhluan on thanhvien.`idFacebook` = binhluan.`idFacebook`
-                                  join videos on binhluan.`videosID` = videos.`VideosID`
-                                  where binhluan.`videosID` = ? ORDER BY binhluan.ngaybinhluan ASC ",["i",$videosid]);
+    $rs = $adb->query_with_params("select loibinhluan, thanhvien.thanhvienid, username, tenfacebook
+                                    from binhluan inner join thanhvien on binhluan.thanhvienid = thanhvien.thanhvienid
+                                    where binhluan.videosid = ? and binhluan.xoa = 0 and thanhvien.xoa = 0
+                                    ORDER BY binhluan.ngaybinhluan ASC ",["i",$videosid]);
     if($adb->num_rows($rs) > 0){
         $data = $adb->fetch_assoc_to_array($rs);
     }

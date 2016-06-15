@@ -25,8 +25,8 @@ $rsUsers = $adb->query_with_params("select * from thanhvien WHERE (username = ? 
 if($adb->num_rows($rsUsers) > 0){
     $data = $adb->fetch_assoc_to_array($rsUsers);
 }else{
-    $adb->query_with_params("insert into thanhvien(username, email, matkhau ,dienthoai, ngaysinh, quequan, xoa) VALUES (?,?,?,?,?,?,?)",
-                                                ['ssssssi', $username,$email, $passwork, $phone, $birthday, $hometown,0]);
+    $adb->query_with_params("insert into thanhvien(tenfacebook, linkfacebook, username, email, matkhau ,dienthoai, ngaysinh, quequan, xoa) VALUES (?,?,?,?,?,?,?,?,?)",
+                                                ['ssssssssi',"", "", $username, $email, $passwork, $phone, $birthday, $hometown,0]);
 }
 
 echo json_encode(array("data"=>$data));

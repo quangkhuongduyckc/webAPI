@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed9fdc7d-ae40-42da-b215-1d98cc36fa37" name="Default" comment="" />
+    <list default="true" id="ed9fdc7d-ae40-42da-b215-1d98cc36fa37" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/addUser.php" afterPath="$PROJECT_DIR$/api/dbAPI/addUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/binhLuan.php" afterPath="$PROJECT_DIR$/api/dbAPI/binhLuan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/dangky.php" afterPath="$PROJECT_DIR$/api/dbAPI/dangky.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/getAbout.php" afterPath="$PROJECT_DIR$/api/dbAPI/getAbout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/getPhimBo.php" afterPath="$PROJECT_DIR$/api/dbAPI/getPhimBo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/getPhimLe.php" afterPath="$PROJECT_DIR$/api/dbAPI/getPhimLe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/getPhimMoi.php" afterPath="$PROJECT_DIR$/api/dbAPI/getPhimMoi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/getPhimTheoTheLoai.php" afterPath="$PROJECT_DIR$/api/dbAPI/getPhimTheoTheLoai.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/getTheLoai.php" afterPath="$PROJECT_DIR$/api/dbAPI/getTheLoai.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/getVideos.php" afterPath="$PROJECT_DIR$/api/dbAPI/getVideos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/get_SoLuong_likes_Views_BinhLuan.php" afterPath="$PROJECT_DIR$/api/dbAPI/get_SoLuong_likes_Views_BinhLuan.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/dbAPI/themLuotXem.php" afterPath="$PROJECT_DIR$/api/dbAPI/themLuotXem.php" />
+    </list>
     <ignored path="webAPI.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,14 +35,40 @@
     <favorites_list name="webAPI" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="masterAdmin.tpl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/master/masterAdmin.tpl">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5945946">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state vertical-scroll-proportion="-10.538462">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addUser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/dbAPI/addUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4134478">
+              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
               <folding>
-                <marker date="1465401035000" expanded="true" signature="13664:13696" placeholder="..." />
+                <marker date="1465920432000" expanded="true" signature="552:595" placeholder="select * fro... thanhvien" />
+                <marker date="1465920432000" expanded="true" signature="693:770" placeholder="insert into thanhvien... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="binhLuan.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/dbAPI/binhLuan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding>
+                <marker date="1465920198000" expanded="true" signature="585:706" placeholder="insert into binhluan... " />
+                <marker date="1465920198000" expanded="true" signature="798:893" placeholder="UPDATE `Vide... " />
+                <marker date="1465920198000" expanded="true" signature="970:1331" placeholder="select loibi... binhluan" />
+                <marker date="1465920198000" expanded="true" signature="1548:1909" placeholder="select * fro... thanhvien" />
               </folding>
             </state>
           </provider>
@@ -38,6 +78,24 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/dbAPI/getPhimMoi.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/getPhimLe.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/getPhimBo.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/getPhimTheoTheLoai.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/getTheLoai.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/themLuotXem.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/get_SoLuong_likes_Views_BinhLuan.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/getAbout.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/getVideos.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/dangky.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/binhLuan.php" />
+        <option value="$PROJECT_DIR$/api/dbAPI/addUser.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" />
@@ -49,10 +107,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-300" />
-    <option name="y" value="23" />
-    <option name="width" value="1063" />
-    <option name="height" value="752" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -79,6 +135,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -107,82 +165,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qlthanhvien" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qlbinhluan" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -198,10 +222,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-300" y="23" width="1063" height="752" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3010348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -236,7 +260,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/admin/index.tpl">
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/getVideos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1465836371000" expanded="true" signature="493:1022" placeholder="select count... videos" />
+            <marker date="1465836371000" expanded="true" signature="1075:1280" placeholder="select xem a... videos" />
+            <marker date="1465836371000" expanded="true" signature="1075:1335" placeholder="select xem a... videos" />
+            <marker date="1465836371000" expanded="true" signature="1398:1576" placeholder="select count... thich" />
+            <marker date="1465836371000" expanded="true" signature="1642:1838" placeholder="select count... binhluan" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/getAbout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="114" selection-start-line="20" selection-start-column="114" selection-end-line="20" selection-end-column="114" />
+          <folding>
+            <marker date="1465829147000" expanded="true" signature="480:944" placeholder="select p.phi... phim" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/get_SoLuong_likes_Views_BinhLuan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -246,10 +341,169 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/master/masterAdmin.tpl">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/master/masterAdmin.tpl">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5945946">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/getPhimMoi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43776825">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="21" />
           <folding>
-            <marker date="1465401035000" expanded="true" signature="13664:13696" placeholder="..." />
+            <marker date="1465718915000" expanded="true" signature="681:913" placeholder="SELECT * FRO... Phim" />
+            <marker date="1465718915000" expanded="true" signature="745:775" placeholder="SELECT MAX(N... Phim" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/getPhimLe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2918455">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <marker date="1465718973000" expanded="true" signature="510:600" placeholder="select * fro... phim" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/getPhimBo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2918455">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <marker date="1465719070000" expanded="true" signature="510:601" placeholder="select * fro... phim" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/getTheLoai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24320458">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <marker date="1465739885000" expanded="true" signature="450:519" placeholder="select * fro... where" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/get_SoLuong_likes_Views_BinhLuan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/getAbout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4620887">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <marker date="1465829147000" expanded="true" signature="480:944" placeholder="select p.phi... phim" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/getPhimTheoTheLoai.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36480686">
+          <caret line="20" column="91" selection-start-line="20" selection-start-column="91" selection-end-line="20" selection-end-column="91" />
+          <folding>
+            <marker date="1465739831000" expanded="true" signature="547:741" placeholder="SELECT * FRO... Phim" />
+            <marker date="1465739831000" expanded="true" signature="728:741" placeholder="SELECT * FRO... Phim" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/themLuotXem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4134478">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding>
+            <marker date="1465744753000" expanded="true" signature="564:630" placeholder="select * fro... luotxem" />
+            <marker date="1465744753000" expanded="true" signature="709:764" placeholder="insert into luotxem... " />
+            <marker date="1465744753000" expanded="true" signature="833:918" placeholder="UPDATE `Vide... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/dangnhap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1464201407000" expanded="true" signature="541:626" placeholder="select * fro... thanhvien" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/dangky.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5593705">
+          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
+          <folding>
+            <marker date="1465915949000" expanded="true" signature="653:722" placeholder="select * fro... thanhvien" />
+            <marker date="1465915949000" expanded="true" signature="871:1007" placeholder="insert into thanhvien... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/getVideos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64806867">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding>
+            <marker date="1465836371000" expanded="true" signature="493:1022" placeholder="select count... videos" />
+            <marker date="1465836371000" expanded="true" signature="1075:1280" placeholder="select xem a... videos" />
+            <marker date="1465836371000" expanded="true" signature="1075:1335" placeholder="select xem a... videos" />
+            <marker date="1465836371000" expanded="true" signature="1398:1576" placeholder="select count... thich" />
+            <marker date="1465836371000" expanded="true" signature="1642:1838" placeholder="select count... binhluan" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/binhLuan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <marker date="1465920198000" expanded="true" signature="585:706" placeholder="insert into binhluan... " />
+            <marker date="1465920198000" expanded="true" signature="798:893" placeholder="UPDATE `Vide... " />
+            <marker date="1465920198000" expanded="true" signature="970:1331" placeholder="select loibi... binhluan" />
+            <marker date="1465920198000" expanded="true" signature="1548:1909" placeholder="select * fro... thanhvien" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.538462">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/dbAPI/addUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4134478">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+          <folding>
+            <marker date="1465920432000" expanded="true" signature="552:595" placeholder="select * fro... thanhvien" />
+            <marker date="1465920432000" expanded="true" signature="693:770" placeholder="insert into thanhvien... " />
           </folding>
         </state>
       </provider>

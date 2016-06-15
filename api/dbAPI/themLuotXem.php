@@ -15,12 +15,12 @@ require_once APP_BASE_PATH.'db/db.php';
 global $adb;
 
 $idvideo = $_GET["videosid"];
-if(isset($_GET["idfacebook"])){
+if(isset($_GET["thanhvienid"])){
  //co
-    $idfb = $_GET["idfacebook"];
-    $rs = $adb->query("select * from luotxem WHERE idfacebook=$idfb AND videosid=$idvideo");
+    $thanhvienid = $_GET["thanhvienid"];
+    $rs = $adb->query("select * from luotxem WHERE thanhvienid=$thanhvienid AND videosid=$idvideo");
     if($adb->num_rows($rs) < 1) {
-        $adb->query_with_params("insert into luotxem(idfacebook, videosid) VALUES (?,?)", ['ii', $idfb, $idvideo]);
+        $adb->query_with_params("insert into luotxem(thanhvienid, videosid) VALUES (?,?)", ['ii', $thanhvienid, $idvideo]);
     }
 }
-$adb->query_with_params("UPDATE `Videos` SET `Videos`.`Views` = `Videos`.`Views` + 1 WHERE `Videos`.`VideosID` = ?", ['i',$idvideo]);
+$adb->query_with_params("UPDATE `Videos` SET `Videos`.`xem` = `Videos`.`xem` + 1 WHERE `Videos`.`VideosID` = ?", ['i',$idvideo]);
